@@ -1,0 +1,16 @@
+D:\Dokumentumok\Vs2010\WordShuffler\WordShuffler\WordShufflerConsoleTest\bin\Debug\Res\szavak.txt
+D:\Dokumentumok\Vs2010\WordShuffler\WordShuffler\WordShufflerConsoleTest\bin\Debug\WordShufflerConsoleTest.exe
+D:\Dokumentumok\Vs2010\WordShuffler\WordShuffler\WordShufflerConsoleTest\bin\Debug\WordShufflerConsoleTest.pdb
+D:\Dokumentumok\Vs2010\WordShuffler\WordShuffler\WordShufflerConsoleTest\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dokumentumok\Vs2010\WordShuffler\WordShuffler\WordShufflerConsoleTest\obj\x86\Debug\WordShufflerConsoleTest.exe
+D:\Dokumentumok\Vs2010\WordShuffler\WordShuffler\WordShufflerConsoleTest\obj\x86\Debug\WordShufflerConsoleTest.pdb
+D:\Dokumentumok\Vs2010\WordShuffler\WordShuffler\WordShufflerConsoleTest\bin\Debug\Bicsko.Lib.SilverLight.WordShuffler.dll
+D:\Dokumentumok\Vs2010\WordShuffler\WordShuffler\WordShufflerConsoleTest\bin\Debug\Bicsko.Lib.SilverLight.WordShuffler.pdb
+C:\Work\WordShuffler\WordShufflerConsoleTest\bin\Debug\WordShufflerConsoleTest.exe
+C:\Work\WordShuffler\WordShufflerConsoleTest\bin\Debug\WordShufflerConsoleTest.pdb
+C:\Work\WordShuffler\WordShufflerConsoleTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Work\WordShuffler\WordShufflerConsoleTest\obj\x86\Debug\WordShufflerConsoleTest.exe
+C:\Work\WordShuffler\WordShufflerConsoleTest\obj\x86\Debug\WordShufflerConsoleTest.pdb
+C:\Work\WordShuffler\WordShufflerConsoleTest\bin\Debug\Res\wordsEn.txt
+C:\Work\WordShuffler\WordShufflerConsoleTest\bin\Debug\WordShuffler.dll
+C:\Work\WordShuffler\WordShufflerConsoleTest\bin\Debug\WordShuffler.pdb

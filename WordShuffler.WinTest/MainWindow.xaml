@@ -1,0 +1,28 @@
+﻿<Window x:Class="WordShufflerWinTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WordShuffler DEMO" Height="350" Width="723">
+    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <Border BorderThickness="2" BorderBrush="Black" Margin="0,0,0,125">
+            <ScrollViewer HorizontalScrollBarVisibility="Auto">
+                <TextBlock Background="LightGray" Name="tb_matrix" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+            </ScrollViewer>
+        </Border>
+        <Button Content="Generate" Height="23" HorizontalAlignment="Center" Margin="12,0,0,12" Name="b_generate" VerticalAlignment="Bottom" Width="75" />
+
+        <Label Content="Size" Height="28" HorizontalAlignment="Left"  Name="label1" VerticalAlignment="Bottom" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="40,0,0,5" Name="tb_size" VerticalAlignment="Bottom" Width="31" Text="5"  />
+
+        <Border Grid.Column="1" BorderThickness="2" BorderBrush="Black" >
+            <ScrollViewer HorizontalScrollBarVisibility="Auto">
+                <TextBlock Background="LightGray" Name="tb_words" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+            </ScrollViewer>
+        </Border>
+        
+        
+    </Grid>
+</Window>
