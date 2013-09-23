@@ -7,6 +7,8 @@ namespace Models
 {
     public class CharMatrix
     {
+        
+
         public char[,] GetMatrix()
         {
             return _matrix;
@@ -22,9 +24,6 @@ namespace Models
             _size = size;
             _words = words;
 
-            //ValidCharacters = new char[] { 'A', 'Á', 'B', 'C', 'D', 'E', 'É', 'F', 'G', 'H', 'I', 'Í', 'J', 'K', 'L', 'M', 'N', 'O', 'Ó', 'Ö', 'Ő', 'P', 'Q', 'R', 'S', 'T', 'U', 'Ú', 'Ü', 'Ű', 'V', 'W', 'X', 'Y', 'Z' };
-            _validRandomCharacters = new char[] { 'A', 'Á', 'B', 'C', 'D', 'E', 'É', 'F', 'G', 'H', 'I', 'Í', 'J', 'K', 'L', 'M', 'N', 'O', 'Ó', 'Ö', 'Ő', 'P', 'R', 'S', 'T', 'U', 'Ú', 'Ü', 'Ű', 'V', 'Y', 'Z' };
-
             _rnd = new Random();
             _matrix = new char[_size, _size];
 
@@ -35,6 +34,14 @@ namespace Models
             WriteWord(baseWord.ToCharArray());
             FillEmptyCellsRandom();
         }
+
+        public CharMatrix(List<string> words, char[,] matrix)
+        {
+            _size = Convert.ToInt32(Math.Sqrt(matrix.Length));
+            _words = words;
+            _matrix = matrix;
+        }
+
 
         public int Size
         {
@@ -93,7 +100,7 @@ namespace Models
 
         private readonly Random _rnd;
         //private char[] ValidCharacters;
-        private readonly char[] _validRandomCharacters;
+        private char[] _validRandomCharacters = new char[] { 'A', 'Á', 'B', 'C', 'D', 'E', 'É', 'F', 'G', 'H', 'I', 'Í', 'J', 'K', 'L', 'M', 'N', 'O', 'Ó', 'Ö', 'Ő', 'P', 'R', 'S', 'T', 'U', 'Ú', 'Ü', 'Ű', 'V', 'Y', 'Z' };
         private readonly char[,] _matrix;
         private readonly List<string> _words;
         private readonly int _size;

@@ -4,9 +4,9 @@ D:\Dokumentumok\Vs2010\WordShuffler\WordShuffler\WordShuffler\bin\Debug\WordShuf
 D:\Dokumentumok\Vs2010\WordShuffler\WordShuffler\WordShuffler\obj\Debug\ResolveAssemblyReference.cache
 D:\Dokumentumok\Vs2010\WordShuffler\WordShuffler\WordShuffler\obj\Debug\WordShuffler.dll
 D:\Dokumentumok\Vs2010\WordShuffler\WordShuffler\WordShuffler\obj\Debug\WordShuffler.pdb
+C:\Work\WordShuffler\WordShuffler\obj\Debug\ResolveAssemblyReference.cache
 C:\Work\WordShuffler\WordShuffler\bin\Debug\Res\wordsEn.txt
 C:\Work\WordShuffler\WordShuffler\bin\Debug\WordShuffler.dll
 C:\Work\WordShuffler\WordShuffler\bin\Debug\WordShuffler.pdb
-C:\Work\WordShuffler\WordShuffler\obj\Debug\ResolveAssemblyReference.cache
 C:\Work\WordShuffler\WordShuffler\obj\Debug\WordShuffler.dll
 C:\Work\WordShuffler\WordShuffler\obj\Debug\WordShuffler.pdb

@@ -35,6 +35,14 @@ namespace WordShuffler
             return model;
         }
 
+        public ShuffleModel GetNextModel(char[,] matrix)
+        {
+            _matrix = new CharMatrix(_words, matrix);
+            var model = new ShuffleModel(_matrix, _dfa);
+            return model;
+        }
+
+
         #region private methods
 
         private List<string> LoadWords(string path)

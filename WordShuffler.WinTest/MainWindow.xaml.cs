@@ -43,8 +43,32 @@ namespace WordShufflerWinTest
         
         }
 
+
+        private char[,] GenerateDummyMatrix()
+        {
+
+            char[,] dummyMatrix = new char[_currentSize, _currentSize];
+
+            char _currentChar = 'A';
+
+            for (int i = 0; i < _currentSize; i++)
+            {
+                for (int j = 0; j < _currentSize; j++)
+                {
+                    dummyMatrix[j, i] = _currentChar;
+                    _currentChar++;
+                }
+            }
+
+            
+            return dummyMatrix;
+        }
+
         void b_generate_Click(object sender, RoutedEventArgs e)
         {
+
+            char[,] currentMatrix = GenerateDummyMatrix();
+
             int currSizeInt = -1;
             var currSizeStr = tb_size.Text;
             if (int.TryParse(currSizeStr, out currSizeInt))
@@ -55,12 +79,12 @@ namespace WordShufflerWinTest
                     _wordShuffler = new WordShuffler.WordShuffler(wordsListPath, _currentSize);
                 }
 
-                _currentShuffleModel = _wordShuffler.GetNextModel();
+                _currentShuffleModel = _wordShuffler.GetNextModel(currentMatrix);
                 
             }
             else
             {
-                _currentShuffleModel = _wordShuffler.GetNextModel();
+                _currentShuffleModel = _wordShuffler.GetNextModel(currentMatrix);
             }
 
             printResult();

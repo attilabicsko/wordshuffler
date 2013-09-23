@@ -4,6 +4,7 @@ C:\Work\WordShuffler\WordShuffler.WinTest\obj\x86\Debug\MainWindow.g.cs
 C:\Work\WordShuffler\WordShuffler.WinTest\obj\x86\Debug\App.g.cs
 C:\Work\WordShuffler\WordShuffler.WinTest\obj\x86\Debug\WordShuffler.WinTest_MarkupCompile.cache
 C:\Work\WordShuffler\WordShuffler.WinTest\obj\x86\Debug\WordShuffler.WinTest.g.resources
+C:\Work\WordShuffler\WordShuffler.WinTest\obj\x86\Debug\WordShufflerWinTest.Properties.Resources.resources
 C:\Work\WordShuffler\WordShuffler.WinTest\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Work\WordShuffler\WordShuffler.WinTest\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Work\WordShuffler\WordShuffler.WinTest\bin\Debug\Res\wordsEn.txt
@@ -11,6 +12,5 @@ C:\Work\WordShuffler\WordShuffler.WinTest\bin\Debug\WordShuffler.WinTest.exe
 C:\Work\WordShuffler\WordShuffler.WinTest\bin\Debug\WordShuffler.WinTest.pdb
 C:\Work\WordShuffler\WordShuffler.WinTest\bin\Debug\WordShuffler.dll
 C:\Work\WordShuffler\WordShuffler.WinTest\bin\Debug\WordShuffler.pdb
-C:\Work\WordShuffler\WordShuffler.WinTest\obj\x86\Debug\WordShufflerWinTest.Properties.Resources.resources
 C:\Work\WordShuffler\WordShuffler.WinTest\obj\x86\Debug\WordShuffler.WinTest.exe
 C:\Work\WordShuffler\WordShuffler.WinTest\obj\x86\Debug\WordShuffler.WinTest.pdb
