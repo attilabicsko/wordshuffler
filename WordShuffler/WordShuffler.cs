@@ -10,22 +10,40 @@ namespace WordShuffler
     {
         private List<string> _words;
         private CharMatrix _matrix;
-        private readonly int _size;
-        private readonly WordDFA _dfa;
+        private int _size;
+        private WordDFA _dfa;
 
-        public WordShuffler(string path, int size)
+
+        private WordShuffler(int size)
         {
-            _words = LoadWords(path);
-            _dfa = new WordDFA(_words);
+            setSize(size);
+        }
+
+        public WordShuffler(string path, int size) : this(size)
+        {
+            setWords(LoadWords(path));            
+        }
+
+        public WordShuffler(Stream wordsStream, int size): this(size)
+        {
+            var sr = new StreamReader(wordsStream);
+            setWords(LoadWords(sr));
+        }
+
+        public WordShuffler(List<string> words, int size) : this(size)
+        {
+            setWords(words);
+        }
+
+        public void setSize(int size)
+        {
             _size = size;
         }
 
-        public WordShuffler(Stream wordsStream, int size)
+        private void setWords(List<string> words)
         {
-            var sr = new StreamReader(wordsStream);
-            _words = LoadWords(sr);
+            _words = words;
             _dfa = new WordDFA(_words);
-            _size = size;
         }
 
         public ShuffleModel GetNextModel()
